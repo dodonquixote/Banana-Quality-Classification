@@ -35,10 +35,9 @@ pip install tensorflow tensorflowjs scikit-learn matplotlib
 ```
 submission
 ├───data_splitted
-| ├───ripe
-| ├───unripe
-| ├───rotten
-| └───overripe
+| ├───train
+| ├───test
+| └───val
 ├───tfjs_model
 | ├───group1-shard1of1.bin
 | └───model.json
